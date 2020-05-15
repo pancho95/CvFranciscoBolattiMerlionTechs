@@ -1,0 +1,199 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+/*font-family: 'Arimo', sans-serif; /*
+/*font-family: 'Ubuntu', sans-serif; /*
+
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/*Header*/
+.header{
+	background-color: #ff914d;
+}
+
+.head{
+	border-bottom: 3px solid red;
+}
+
+
+.cvphoto{
+	border-radius: 50%;
+}
+
+.objective{
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.item1,.item2,.item3,.item4{
+	padding-top:150px;
+}
+
+.title-contact{
+	margin-left: -30px;
+	padding-top: 30px;
+}
+
+.title-name{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.title-profession{
+	margin-top: 20px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+/*Objective and Skills*/
+
+.title-objective{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.skills{
+	padding-top:20px;
+	font-size: 19px;
+	font-weight: bold;
+}
+
+.title-bio{
+	padding-top: 20px;
+	font-size: 18px;
+}
+
+.title-skills{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+}
+
+
+/*Education*/
+
+.education{
+	border-top: 3px solid #000;
+	margin-top: 50px;
+	margin-left: 20px;
+	padding-top: 20px;
+}
+
+
+.location{
+	font-size: 19px;
+	color: grey;
+}
+
+.description-edu1,.description-edu2,.description-work1,.description-work2{
+	font-size: 19px;
+}
+
+.place1,.place2,.place3,.place4{
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.title1,.title2{
+	font-size: 19px;
+}
+
+
+.comit{
+	padding-top: 20px;
+}
+
+.terciary{
+	padding-top: 20px;
+}
+
+
+/*Work section*/
+
+.work{
+	border-top: 3px solid #000;
+	margin-top:50px;
+	margin-left: 20px;
+	padding-top: 20px;
+}
+
+
+.time1,.time2,.time3,.time4{
+	color:grey;
+	font-size: 18px;
+}
+
+
+.title-work1,.title-work2{
+	font-size: 22px;
+	font-weight: bolder;
+}
+
+.courts{
+	padding-top: 20px;
+}
+
+
+.adm{
+	padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+/*Contact */
+
+
+
+
+
+.svgwhatsapp{
+	fill:#25d366;
+}
+
+
+
+.svglinkedin{
+	fill:#007bb6;
+}
+
+.svggithub{
+	fill:#181617;
+}
+
+
+.whatsapp{
+	background-color: #fff;
+}
+
+
+
+.linkedin{
+	background-color: #fff;
+}
+
+
+.github{
+	background-color: #fff;
+}
+
+
+
+
+
+
+/*Contact hover */
+
+.whatsapp:hover,.github:hover,.linkedin:hover,.mail:hover{
+	height: 70px;
+	width: 70px;
+	transition: 0.3s;
+}
