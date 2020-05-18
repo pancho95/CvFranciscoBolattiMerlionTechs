@@ -1,3 +1,5 @@
+//content of web
+
 var data = {
 	'en':{
 		'profesion':'Junior Developer',
@@ -50,6 +52,9 @@ var data = {
 	}
 }
 
+
+
+//function to change language
 function language(){
 	$(function(){
 		$('.translate').click(function(){
