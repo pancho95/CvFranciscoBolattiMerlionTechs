@@ -11,7 +11,7 @@ var data = {
 		'education':'Academic Formation',
 		'title1':'Mobile software development',
 		'time1':'July 2019 - October 2019',
-		'description-edu1':'Development of mobile applications using technologies such as: HMTL5, CSS3, Javascript, Jquery, Framework 7, Firebase, Apache Cordova, Phonegap, design UX/UI.',
+		'description-edu1':'Development of mobile applications using technologies such as: HTML5, CSS3, Javascript, Jquery, Framework 7, Firebase, Apache Cordova, Phonegap, design UX/UI.',
 		'place2':'Terciary Urquiza',
 		'title2':'Software Development Technician',
 		'time2':'April 2019 - Present',
@@ -35,7 +35,7 @@ var data = {
 		'education':'Formación Académica',
 		'title1':'Desarrollo de aplicaciones móviles',
 		'time1':'Julio 2019 - Octubre 2019',
-		'description-edu1':'Desarrollo de aplicaciones móviles usando tecnologías como: HMTL5, CSS3, Javascript, Jquery, Framework 7, Firebase, Apache Cordova, Phonegap, diseño UX/UI.',
+		'description-edu1':'Desarrollo de aplicaciones móviles usando tecnologías como: HTML5, CSS3, Javascript, Jquery, Framework 7, Firebase, Apache Cordova, Phonegap, diseño UX/UI.',
 		'place2':'TERCIARIO URQUIZA',
 		'title2':'Técnico en desarrollo de software',
 		'time2':'Abril 2019 - Actualidad',
@@ -69,10 +69,22 @@ function language(){
 
 
 
+// function to change to dark mode
+
+	function darkmode(){
+		var body = document.body;
+
+		var header = document.querySelector('.header');
 
 
+		
+		body.classList.toggle('bg-dark');
+		body.classList.toggle('text-white');
+		header.classList.toggle('bg-secondary');
 
+		
 
-
+		
+	}
 
 

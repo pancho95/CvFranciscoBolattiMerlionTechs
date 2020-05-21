@@ -16,11 +16,19 @@
 
 /*Header*/
 .header{
-	background-color: #ff914d;
+	/*background-color: #ff914d;*/
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .head{
 	border-bottom: 3px solid red;
+}
+
+
+.bg-image{
+	background: url(img/bg-image.jpg);
 }
 
 
@@ -33,14 +41,6 @@
 	margin-top: 30px;
 }
 
-.item1,.item2,.item3,.item4{
-	padding-top:150px;
-}
-
-.title-contact{
-	margin-left: -30px;
-	padding-top: 30px;
-}
 
 .title-name{
 	font-family: 'Ubuntu', sans-serif;
@@ -54,6 +54,8 @@
 
 
 
+
+
 /*Objective and Skills*/
 
 .title-objective{
@@ -61,12 +63,14 @@
 }
 
 .skills{
+	font-family: 'Arimo', sans-serif;
 	padding-top:20px;
 	font-size: 19px;
 	font-weight: bold;
 }
 
 .title-bio{
+	font-family: 'Arimo', sans-serif;
 	padding-top: 20px;
 	font-size: 18px;
 }
@@ -88,20 +92,23 @@
 
 
 .location{
+	font-family: 'Arimo', sans-serif;
 	font-size: 19px;
-	color: grey;
 }
 
 .description-edu1,.description-edu2,.description-work1,.description-work2{
+	font-family: 'Arimo', sans-serif;
 	font-size: 19px;
 }
 
 .place1,.place2,.place3,.place4{
+	font-family: 'Arimo', sans-serif;
 	font-size: 20px;
 	font-weight: bolder;
 }
 
 .title1,.title2{
+	font-family: 'Arimo', sans-serif;
 	font-size: 19px;
 }
 
@@ -126,13 +133,14 @@
 
 
 .time1,.time2,.time3,.time4{
-	color:grey;
+	font-family: 'Arimo', sans-serif;
 	font-size: 18px;
 }
 
 
 .title-work1,.title-work2{
-	font-size: 22px;
+	font-family: 'Arimo', sans-serif;
+	font-size: 20px;
 	font-weight: bolder;
 }
 
@@ -153,9 +161,6 @@
 
 
 /*Contact */
-
-
-
 
 
 .svgwhatsapp{
@@ -187,6 +192,11 @@
 .github{
 	background-color: #fff;
 }
+
+
+
+/*Dark mode */
+
 
 
 
