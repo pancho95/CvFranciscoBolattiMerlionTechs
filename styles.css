@@ -28,7 +28,8 @@
 
 
 .bg-image{
-	background: url(img/bg-image.jpg);
+	background-image: url(img/bg-header.jpeg);
+	background-size: cover;
 }
 
 

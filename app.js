@@ -80,6 +80,7 @@ function language(){
 		
 		body.classList.toggle('bg-dark');
 		body.classList.toggle('text-white');
+		header.classList.toggle('bg-image');
 		header.classList.toggle('bg-secondary');
 
 		
