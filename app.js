@@ -6,31 +6,32 @@ var data = {
 		'contact':'Contact',
 		'objective':'Objective',
 		'bio':
-		'I am a person passionate about the development of mobile applications, wanting to pour all my knowledge into a company in order to continue training as a programmer.',
+		'I am a person passionate about the development of web applications, wanting to pour all my knowledge into a company in order to continue training as a programmer.',
 		'skills':'Skills',
 		'education':'Academic Formation',
 		'title1':'Mobile software development',
 		'time1':'July 2019 - October 2019',
 		'description-edu1':'Development of mobile applications using technologies such as: HTML5, CSS3, Javascript, Jquery, Framework 7, Firebase, Apache Cordova, Phonegap, design UX/UI.',
-		'place2':'Terciary Urquiza',
+		'place2':'TERCIARY URQUIZA',
 		'title2':'Software Development Technician',
 		'time2':'April 2019 - Present',
 		'description-edu2':'2nd year student of the degree',
 		'work-exp':'Work Experience',
-		'title-work1':'INTERN',
-		'place3':'Courts',
-		'time3':'April 2016 - April 2020',
-		'des-work1':'Attention to the public and management of files in Labor Court No. 5 of the Provincial Courts of Rosario.',
-		'title-work2':'ADMINISTRATIVE',
-		'time4':'March 2013 - March 2016',
-		'des-work2':'Carrying out administrative procedures, telephone assistance and receiving visits, correspondence management, organization and filing of documentation.'
+		'title-work1':'FREELANCE DEVELOPER',
+		'place3':'Freelance',
+		'time3':'December 2019 - Present',
+		'des-work1':'Updating and maintenance of websites:',
+		'title-work2':'INTERN',
+		'place4':'Courts',
+		'time4':'April 2016 - April 2020',
+		'des-work2':'Attention to the public and management of files in Labor Court No. 5 of the Provincial Courts of Rosario.'
 	},
 	'es':{
 		'profesion':'Desarrollador Junior',
 		'contact':'Contacto',
 		'objective':'Objetivo',
 		'bio':
-		'Soy una persona apasionada por el desarrollo de aplicaciones móviles, con ganas de volcar todos mis conocimientos en una empresa para poder seguir formándome como programador.',
+		'Soy una persona apasionada por el desarrollo de aplicaciones web, con ganas de volcar todos mis conocimientos en una empresa para poder seguir formándome como programador.',
 		'skills':'Habilidades',
 		'education':'Formación Académica',
 		'title1':'Desarrollo de aplicaciones móviles',
@@ -41,13 +42,14 @@ var data = {
 		'time2':'Abril 2019 - Actualidad',
 		'description-edu2':'Estudiante de 2° año de la carrera',
 		'work-exp':'Experiencia Laboral',
-		'title-work1':'PASANTE',
-		'place3':'Poder Judicial',
-		'time3':'Abril 2016 - Abril 2020',
-		'des-work1':'Atención al público y gestión de expedientes en el Juzgado Laboral N°5 de los Tribunales Provinciales de Rosario.',
-		'title-work2':'ADMINISTRATIVO',
-		'time4':'Marzo 2013 - Marzo 2016',
-		'des-work2':'Realización de trámites administrativos, atención telefónica y recepción de visitas, gestión de correspondencia, organización y archivo de la documentación.'
+		'title-work1':'DESARROLLADOR FREELANCE',
+		'place3':'Autónomo',
+		'time3':'Diciembre 2019 - Actualidad',
+		'des-work1':'Actualización y mantenimiento de los sitios web:',
+		'title-work2':'PASANTE',
+		'place4':'Poder Judicial',
+		'time4':'Abril 2016 - Abril 2020',
+		'des-work2':'Atención al público y gestión de expedientes en el Juzgado Laboral N°5 de los Tribunales Provinciales de Rosario.'
 
 	}
 }
@@ -76,13 +78,45 @@ function language(){
 
 		var header = document.querySelector('.header');
 
+		var work = document.querySelector('.border-work');
 
+		var edu = document.querySelector('.border-edu');
+
+		var web1 = document.querySelector('.web1');
+		var web2 = document.querySelector('.web2');
 		
+		// body and header color change
 		body.classList.toggle('bg-dark');
 		body.classList.toggle('text-white');
 		header.classList.toggle('bg-image');
 		header.classList.toggle('bg-secondary');
+		
+		// border color change
 
+		work.classList.toggle('border-work1');
+
+		edu.classList.toggle('border-edu1');
+
+		// change color links
+		if (web1.classList.contains('text-dark') && web2.classList.contains('text-dark') ) {
+
+			web1.classList.remove('text-dark')
+			web1.classList.add('text-white')
+
+			web2.classList.remove('text-dark')
+			web2.classList.add('text-white')
+
+
+		  } else {
+
+			web1.classList.remove('text-white')
+			web1.classList.add('text-dark')
+
+			web2.classList.remove('text-white')
+			web2.classList.add('text-dark')
+
+
+		  }
 		
 
 		

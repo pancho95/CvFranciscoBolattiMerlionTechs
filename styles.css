@@ -1,6 +1,7 @@
 *{
 	padding: 0px;
 	margin: 0px;
+	box-sizing: border-box;
 }
 
 /*font-family: 'Arimo', sans-serif; /*
@@ -12,14 +13,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 
-
-
 /*Header*/
 .header{
 	/*background-color: #ff914d;*/
 	display:flex;
 	flex-direction: column;
-	justify-content: space-between;
 }
 
 .head{
@@ -53,10 +51,6 @@
 }
 
 
-
-
-
-
 /*Objective and Skills*/
 
 .title-objective{
@@ -85,12 +79,19 @@
 /*Education*/
 
 .education{
-	border-top: 3px solid #000;
+	/*border-top: 3px solid #000;*/
 	margin-top: 50px;
 	margin-left: 20px;
 	padding-top: 20px;
 }
 
+.border-edu{
+	border-top: 3px solid #000;
+}
+
+.border-edu1{
+	border-top: 3px solid #fff;
+}
 
 .location{
 	font-family: 'Arimo', sans-serif;
@@ -126,10 +127,18 @@
 /*Work section*/
 
 .work{
-	border-top: 3px solid #000;
+	/*border-top: 3px solid #000;*/
 	margin-top:50px;
 	margin-left: 20px;
 	padding-top: 20px;
+}
+
+.border-work{
+	border-top: 3px solid #000;
+}
+
+.border-work1{
+	border-top: 3px solid #fff;
 }
 
 
@@ -156,23 +165,17 @@
 
 
 
-
-
-
-
-
 /*Contact */
-
 
 .svgwhatsapp{
 	fill:#25d366;
 }
 
 
-
 .svglinkedin{
 	fill:#007bb6;
 }
+
 
 .svggithub{
 	fill:#181617;
@@ -184,7 +187,6 @@
 }
 
 
-
 .linkedin{
 	background-color: #fff;
 }
@@ -193,15 +195,6 @@
 .github{
 	background-color: #fff;
 }
-
-
-
-/*Dark mode */
-
-
-
-
-
 
 
 /*Contact hover */
