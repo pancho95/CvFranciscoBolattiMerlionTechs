@@ -17,7 +17,8 @@
 }
 
 .head{
-	border-bottom: 2px solid red;
+	border-bottom: 2px solid #f72c2c;
+	margin-top: 30px;
 }
 
 
@@ -28,8 +29,7 @@
 }
 
 .objective{
-	margin-left: 20px;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 
@@ -43,16 +43,14 @@
 .title-profession{
 	margin-top: 20px;
 	font-family: 'Ubuntu', sans-serif;
-	color: #000000;
+	color: #734123;
 	font-weight: bolder;
 }
 
 
 /*Objective and Skills*/
 
-.objective{
-	margin-top: 50px;
-}
+
 
 .title-objective{
 	font-family: 'Ubuntu', sans-serif;
@@ -82,8 +80,6 @@
 /*Education*/
 
 .education{
-	
-	margin-top: 0px;
 	margin-left: 20px;
 	padding-top: 20px;
 }
@@ -92,31 +88,32 @@
 	border-top: 3px solid #000;
 }
 
-.border-edu1{
-	border-top: 3px solid #fff;
-}
 
 .location{
 	font-family: 'Arimo', sans-serif;
 	font-size: 19px;
+	color: #404040;
 }
 
 .description-edu1,.description-edu2,.description-work1,.description-work2{
 	font-family: 'Arimo', sans-serif;
 	font-size: 19px;
-	font-weight: bolder;
-	color: #646464;
+	font-weight: bold;
+	
 }
 
 .place1,.place2,.place3,.place4{
 	font-family: 'Arimo', sans-serif;
 	font-size: 20px;
-	font-weight: bolder;
+	font-weight: bold;
+	color: #404040;
 }
 
 .title1,.title2{
 	font-family: 'Arimo', sans-serif;
 	font-size: 19px;
+	color: #404040;
+	font-weight: bold;
 }
 
 
@@ -148,13 +145,29 @@
 .time1,.time2,.time3,.time4{
 	font-family: 'Arimo', sans-serif;
 	font-size: 18px;
+	color: #404040;
+	font-weight: bold;
 }
 
+.link{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.link2{
+	font-weight:bold;
+	text-decoration: underline;
+	color:#000000;
+}
+
+.link2:hover{
+	color:#000000;
+}
 
 .title-work1,.title-work2{
 	font-family: 'Arimo', sans-serif;
 	font-size: 20px;
-	font-weight: bolder;
+	font-weight: bold;
 }
 
 .courts{
