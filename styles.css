@@ -1,34 +1,26 @@
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 *{
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
 }
 
-/*font-family: 'Arimo', sans-serif; /*
-/*font-family: 'Ubuntu', sans-serif; /*
-
-
-/* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-
-
 /*Header*/
 .header{
-	/*background-color: #ff914d;*/
+	background-color: #ff914d;
 	display:flex;
 	flex-direction: column;
 }
 
 .head{
-	border-bottom: 3px solid red;
+	border-bottom: 2px solid red;
 }
 
 
-.bg-image{
-	background-image: url(img/bg-header.jpeg);
-	background-size: cover;
-}
 
 
 .cvphoto{
@@ -43,44 +35,55 @@
 
 .title-name{
 	font-family: 'Ubuntu', sans-serif;
+	color: #000000;
+	font-size:45px;
+	font-weight:bolder;
 }
 
 .title-profession{
 	margin-top: 20px;
 	font-family: 'Ubuntu', sans-serif;
+	color: #000000;
+	font-weight: bolder;
 }
 
 
 /*Objective and Skills*/
 
+.objective{
+	margin-top: 50px;
+}
+
 .title-objective{
 	font-family: 'Ubuntu', sans-serif;
+	font-weight: bolder;
 }
 
 .skills{
 	font-family: 'Arimo', sans-serif;
 	padding-top:20px;
 	font-size: 19px;
-	font-weight: bold;
+	font-weight: bolder;
 }
 
 .title-bio{
 	font-family: 'Arimo', sans-serif;
 	padding-top: 20px;
 	font-size: 18px;
+	font-weight: bolder;
 }
 
 .title-skills{
 	font-family: 'Ubuntu', sans-serif;
-	font-weight: bold;
+	font-weight: bolder;
 }
 
 
 /*Education*/
 
 .education{
-	/*border-top: 3px solid #000;*/
-	margin-top: 50px;
+	
+	margin-top: 0px;
 	margin-left: 20px;
 	padding-top: 20px;
 }
@@ -101,6 +104,8 @@
 .description-edu1,.description-edu2,.description-work1,.description-work2{
 	font-family: 'Arimo', sans-serif;
 	font-size: 19px;
+	font-weight: bolder;
+	color: #646464;
 }
 
 .place1,.place2,.place3,.place4{
@@ -127,8 +132,8 @@
 /*Work section*/
 
 .work{
-	/*border-top: 3px solid #000;*/
-	margin-top:50px;
+	
+	margin-top:0px;
 	margin-left: 20px;
 	padding-top: 20px;
 }
@@ -137,9 +142,7 @@
 	border-top: 3px solid #000;
 }
 
-.border-work1{
-	border-top: 3px solid #fff;
-}
+
 
 
 .time1,.time2,.time3,.time4{
@@ -166,6 +169,22 @@
 
 
 /*Contact */
+
+.item1,.item2,.item3,.item4,.item5,.item6{
+	margin-top: 40px;
+}
+
+.title-contact{
+	margin-top: 100px;
+	color: #000000;
+}
+
+.text-item{
+	color: #000000;
+	font-weight: bolder;
+	margin-top: 20px;
+	font-size: 17px;
+}
 
 .svgwhatsapp{
 	fill:#25d366;
@@ -197,10 +216,3 @@
 }
 
 
-/*Contact hover */
-
-.whatsapp:hover,.github:hover,.linkedin:hover,.mail:hover{
-	height: 70px;
-	width: 70px;
-	transition: 0.3s;
-}
